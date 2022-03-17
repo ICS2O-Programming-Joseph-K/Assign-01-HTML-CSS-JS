@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Oldest Videos on YouTube">
+    <meta name="keywords" content="YouTube Info">
+    <meta name="author" content="Joseph Kwon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <!-- For the favicon on this page -->
     <link rel="apple-touch-icon.png" sizes="180x180" href="./fav_index/favicon-16x16.png">
@@ -21,13 +27,19 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 		
     <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      
 			<!-- Web page header -->
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">      
           <span class = "mdl-layout-title">YouTube Info</span>          
         </div>       
       </header>
-    
+      
+      <!-- Colored FAB button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">no purpose</i>
+</button>
+      
     <h1><center><font color="#FF0000">Oldest videos on YouTube</font></center></h1>
 
     <p><font color="#FFFFFF">YouTube is a video sharing website and social media platform based in California, United States. It was started on February 14, 2005. It is currently the second most viewed website in the world, after Google. Countless videos have been uploaded to YouTube during the course of its decade-long existence on the internet, and this site will list the top 5 oldest videos on YouTube.</font></p>
@@ -84,6 +96,22 @@
     <p>
       Check out the video yourself ---> <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw">Me at the zoo</a>
     </p>
-    
+
+<!-- Simple additional button to Jawed's channel -->
+    <a href="https://www.youtube.com/channel/UC4QobU6STFB0P71PMvOGN5A">
+          <button style="background-color: red;"><button>Jawed's Channel</button>
+    </a>   
+
+				<!-- Toggles (MDL)/Questions -->
+				<h5>Enjoyed the site?</h5>
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+				  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+				  <span class="mdl-radio__label">Yes</span>
+				</label>
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+				  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+				  <span class="mdl-radio__label">No</span>
+				</label>
+      
   </body>
 </html>
